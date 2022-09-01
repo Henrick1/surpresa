@@ -73,7 +73,7 @@ button:hover {
 }
 .puzzle2 {
     border: 7px solid #CCCCCC;
-    background: orange;
+    background: white;
     margin: 5%;
     height: 70%;
     border-radius: 20px;
@@ -113,8 +113,8 @@ button:hover {
     height: 90px; width: 90px;
     border-radius: 70px;
     background: orange;
-    top: 150px;
-    left: 200px;
+    top: 5%;
+    left: 5%;
 }
 .erro2{
     position: absolute;
@@ -122,8 +122,8 @@ button:hover {
     height: 120px; width: 120px;
     border-radius: 70px;
     background: orange;
-    top: 400px;
-    left: 400px;
+    top: 30%;
+    left: 35%;
 }
 .erro3{
     position: absolute;
