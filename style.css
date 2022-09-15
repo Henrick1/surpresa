@@ -1,0 +1,302 @@
+body {
+    margin: 0px;
+    background: orange;
+}
+.page {
+    background: white;
+    height: 80%; width: 80%;
+    margin-left: 10%; margin-right: 10%; margin-top: 4%;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;;
+}
+.title {
+    text-align: center;
+    margin-top: 15%;
+}
+input {
+    text-align: center;
+    border: 5px solid orange;
+    height: 40px;
+    border-radius: 20px;
+    width: 300px;
+}
+.enter {
+    background: orange;
+    border: 0px;
+    border-radius: 20px;
+    margin: 1%;
+    height: 40px; width: 100px;
+}
+button:hover {
+    background: rgb(225, 116, 0);
+    cursor: pointer;
+}
+.redirect {
+    background: orange;
+    border: 0px;
+    border-radius: 20px;
+    height: 60px;
+    margin-left: 45%;
+    margin-right: 45%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.entrarpag {
+    color: black;
+    font-family: georgia;
+    font-size: 20px;
+}
+.page2 {
+    background: white;
+    height: 120%; width: 80%;
+    margin-left: 10%; margin-right: 10%; margin-top: 10%; margin-bottom: 10%;
+    border-radius: 20px;
+    padding: 10px;
+    align-content: center;
+    position: relative;
+}
+.page3 {
+    background: white;
+    height: 100%; width: 80%;
+    margin-left: 10%; margin-right: 10%; margin-top: 5%; margin-bottom: 5%;
+    border-radius: 20px;
+    padding: 10px;
+    align-content: center;
+    position: relative;
+}
+.frase {
+    text-align: center;
+    margin-top: 7%;
+}
+.puzzle2 {
+    border: 7px solid #CCCCCC;
+    background: orange;
+    margin: 5%;
+    height: 70%;
+    border-radius: 20px;
+    position: relative;
+}
+.puzzle {
+    border: 7px solid #CCCCCC;
+    margin: 5%;
+    height: 72%;
+    border-radius: 20px;
+    position: relative;
+}
+.titlepuzzle {
+    text-align: center;
+}
+.certo{
+    height: 90px; width: 90px;
+    border-radius: 70px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    position: absolute;
+    border: 5px solid orange;
+    top: 64.9%;
+    left: 60.1%;
+}
+.certo:hover {
+    color: black;
+    background: rgb(225, 116, 0);
+    cursor: pointer;
+}
+.erro1{
+    position: absolute;
+    border: 5px solid orange;
+    height: 90px; width: 90px;
+    border-radius: 70px;
+    background: orange;
+    top: 7%;
+    left: 7%;
+}
+.erro2{
+    position: absolute;
+    border: 5px solid orange;
+    height: 120px; width: 120px;
+    border-radius: 70px;
+    background: orange;
+    top: 30%;
+    left: 35%;
+}
+.erro3{
+    position: absolute;
+    border: 5px solid orange;
+    height: 60px; width: 60px;
+    border-radius: 70px;
+    background: orange;
+    top: 47%;
+    left: 80%;
+}
+.erro4{
+    position: absolute;
+    border: 5px solid orange;
+    height: 70px; width: 70px;
+    border-radius: 70px;
+    background: orange;
+    top: 77%;
+    left: 10%;
+}
+.erro5{
+    position: absolute;
+    border: 5px solid orange;
+    height: 70px; width: 70px;
+    border-radius: 70px;
+    background: orange;
+    top: 24%;
+    left: 62%;
+}
+.erro6{
+    position: absolute;
+    border: 5px solid orange;
+    height: 70px; width: 70px;
+    border-radius: 70px;
+    background: orange;
+    top: 80%;
+    left: 41%;
+}
+.erro7{
+    position: absolute;
+    border: 5px solid orange;
+    height: 70px; width: 70px;
+    border-radius: 70px;
+    background: orange;
+    top: 85%;
+    left: 80%;
+}
+.erro8{
+    position: absolute;
+    border: 5px solid orange;
+    height: 80px; width: 80px;
+    border-radius: 70px;
+    background: orange;
+    top: 9%;
+    left: 80%;
+}
+.erro9 {
+    position: absolute;
+    border: 5px solid orange;
+    height: 60px; width: 60px;
+    border-radius: 70px;
+    background: orange;
+    top: 50%;
+    left: 7%;
+}
+.erro1:hover, .erro2:hover, .erro3:hover, .erro4:hover, .erro5:hover, .erro6:hover, .erro7:hover, .erro8:hover, .erro9:hover {
+    background: rgb(225, 116, 0);
+    cursor: pointer;
+}
+.proxima2 {
+    position: absolute;
+    background: white;
+    border: 0px;
+    border-radius: 20px;
+    height: 60px; width: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-self: center;
+    bottom: 1%;
+    margin-left: 45%;
+    margin-right: 45%;
+    font-family: georgia;
+    font-size: 20px;
+}
+.proxima {
+    position: absolute;
+    background: orange;
+    border: 0px;
+    border-radius: 20px;
+    height: 60px; width: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    bottom: 1%;
+    margin-left: 45%;
+    margin-right: 45%;
+    font-family: georgia;
+    font-size: 20px;
+}
+.proxbut {
+    position: absolute;
+    top: 35%;
+    color: black;
+}
+.area {
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    width: 40%;
+    padding: 5px;
+}
+.barra1 {
+    width: 60px; height: 30px;
+    background: orange;
+    border: 5px solid orange;
+}
+.barra2 {
+    width: 170px; height: 30px;
+    background: orange;
+    border: 5px solid orange;
+}
+.barra3 {
+    width: 80px; height: 30px;
+    background: orange;
+    border: 5px solid orange;
+}
+.barra4 {
+    width: 30px; height: 30px;
+    background: orange;
+    border: 5px solid orange;
+}
+.barra1:hover, .barra2:hover, .barra4:hover {
+    background: rgb(225, 116, 0);
+    cursor: pointer;
+}
+.barra3:hover {
+    background: rgb(225, 116, 0);
+    cursor: pointer;
+    width: 1000%;
+}
+.final {
+    top: 30%;
+    left: 47.4%;
+    background: orange;
+    border: 0px;
+    border-radius: 20px;
+    height: 40px; width: 140px;
+    font-family: georgia;
+    font-size: 15px;
+}
+.page4 {
+    background: white;
+    height: 105%; width: 80%;
+    margin-left: 10%; margin-right: 10%; margin-top: 10%; margin-bottom: 10%;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.cxmsgfinal {
+    text-align: center;
+
+}
+.msgfinal {
+    margin-top: 30px;
+}
+.emoji {
+    text-align: center;
+    color:orange;
+    font-size: 100px;
+    margin: 10px;
+}
+.emoji1 {
+    font-size: 30px;
+}
